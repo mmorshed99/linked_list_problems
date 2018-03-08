@@ -7,7 +7,14 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
-
+#Input : 
+#
+#                  ______
+#                 |     |
+#                 \/    |
+#        1 -> 2 -> 3 -> 4
+#
+#Return the node corresponding to node 3. 
 class Solution:
     # @param A : head node of linked list
     # @return the first node in the cycle in the linked list
