@@ -38,7 +38,7 @@ class Solution:
             return None
         x_find = ListNode(1)
         x_find = A
-        while(x_find != x):
+        while(x_find != x): # x_adv didn't travel non-loop distance 2nd time, that would be the difference
             x = x.next
             x_find = x_find.next
         return x_find
